@@ -1,0 +1,130 @@
+body {
+    background-color: #296699;
+    margin: 0 auto;
+    font-family: 'Tinos', serif;
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: #426699;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: -10px;
+}
+
+.nav-items {
+    float: right;
+}
+
+.list-item {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+}
+.text-style {
+    margin-top: 100px;
+}
+
+
+#logo {
+    height: 70px;
+    width: 100px;
+    margin: 5px 0px 0px 10px;
+}
+
+h1 {
+    position: absolute;
+    left: 275px;
+    top: 150px;
+}
+p {
+    height: 800px;
+    width: 500px;
+    margin-left: 50px;
+    word-wrap: break-word;
+    text-align-last: justify;
+    text-justify: inter-word;
+}
+
+.div.a {
+    text-align: center;
+}
+
+.div.b {
+    text-align: center;
+}
+/*.text-style {*/
+/*    font-style: 400;*/
+/*    position: relative;*/
+/*    margin-top: 100px;*/
+}
+
+.banner {
+    background-color: #0000;
+    background-image: url('../img/Horizonone.jpg');
+    margin-top: 300px;
+    height: 200px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.banner-text {
+    text-align: center;
+    margin-left: 150px;
+    font-size: 50px;
+    color: #dab3ff;
+    position: static;
+}
+
+.banner-text-background {
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+}
+
+.column-one {
+    width: 50%;
+    display: inline-block;
+    height: 300px;
+    position: static;
+    background-image: url('../img/flower.jpg');
+    float: left;
+}
+
+.flower {
+    width: 40%
+    height: 50%;
+}
+
+.column-two {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    /*position: absolute;*/
+    margin-top: 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.body {
+    width: 100%;
+}
+
+
