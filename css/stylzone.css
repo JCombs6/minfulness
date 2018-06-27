@@ -1,5 +1,5 @@
 body {
-    background-color: #009999;
+    background-color: #ccffff;
     margin: 0 auto;
     font-family: 'Tinos', serif;
 }
@@ -56,27 +56,77 @@ h1 {
     top: 150px;
 }
 
-/*p {*/
-/*    height: 800px;*/
-/*    width: 800px;*/
-/*    margin-left: 50px;*/
-/*}*/
+p {
+    height: 800px;
+    width: 500px;
+    margin-left: 50px;
+    word-wrap: break-word;
+    /*text-align-last: justify;*/
+    text-justify: inter-word;
+}
 
 .column-one {
-    float: left;
     width: 50%;
-    padding: 10px;
-    outline: 2px dashed black;
     display: inline-block;
-    height: 100%;
+    height: 1000px;
+    position: static;
+    float: left;
+    margin-top: 100px;
 }
 
 .column-two {
-    padding: 10px;
-    width: 50%;
+    float: left;
+    text-align: center;
     display: inline-block;
-    height: 100%;
-    outline: 2px dashed black;
-    clear: both;
+    width: 50%;
+    height: 1000px;
+    margin-top: 100px;
+    /*border-style: solid;*/
+    /*border-bottom-width: 3px;*/
+    /*border-bottom-color: red;*/
 }
 
+.footer{
+    width: 100%;
+    height: 115px;
+    background-color: #0080ff;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+.footer-col{
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-btn {
+    background-color: #fff;
+    color: #C92C21;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-top: 40px;
+    border: double;
+    cursor: pointer;
+}
+.footer-btn:hover{
+    background-color: #ffff00;
+}
+.icons-wrap{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.icon{
+    color: a3a375;
+    margin-right: 15px;
+}
+.icon:hover{
+    color: #ffff00;
+}
+.copyright{
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 130px;
+}
